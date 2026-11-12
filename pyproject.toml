@@ -1,0 +1,36 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "agentsleuth"
+version = "0.1.0"
+description = "Deterministic, LLM-free forensic reconstruction for AI agents: trace which untrusted input caused which action after a prompt-injection attack."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Ahad Nawaz" }]
+keywords = ["ai-agents", "prompt-injection", "digital-forensics", "llm-security",
+            "taint-analysis", "agent-security", "incident-response"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Topic :: Security",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = []   # core uses only the Python standard library
+
+[project.urls]
+Homepage = "https://github.com/ahadnawaz-sec/agentsleuth"
+Repository = "https://github.com/ahadnawaz-sec/agentsleuth"
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.scripts]
+agentsleuth = "agentsleuth.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/agentsleuth"]

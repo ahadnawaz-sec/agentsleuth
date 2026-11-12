@@ -1,0 +1,19 @@
+# secrets — never commit
+.env
+*.key
+*.pem
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.venv/
+venv/
+
+# data / runs (large; keep out of the repo unless intentionally sharing a sample)
+runs/
+*.tar.gz
