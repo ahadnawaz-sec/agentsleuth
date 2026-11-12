@@ -16,7 +16,7 @@ loop**, so the investigator itself cannot be prompt-injected.
 ## Install
 
 ```bash
-pip install agentsleuth
+pip install llm-agent-forensics   # import name stays: agentsleuth
 ```
 
 ## Quickstart (library)
