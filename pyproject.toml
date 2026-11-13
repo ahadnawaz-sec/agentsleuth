@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "llm-agent-forensics"
-version = "0.1.0"
+version = "0.2.0"
 description = "Deterministic, LLM-free forensic reconstruction for AI agents: trace which untrusted input caused which action after a prompt-injection attack."
 readme = "README.md"
 requires-python = ">=3.10"
