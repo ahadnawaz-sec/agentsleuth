@@ -1,4 +1,10 @@
-# AgentSleuth
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24209801.svg)](https://doi.org/10.5281/zenodo.24209801)
+
+## Paper
+Nawaz, A. (2026). *Forensic Readiness of AI Agents: Reconstructing Prompt-Injection Attacks Without Trusting the LLM.* Zenodo. https://doi.org/10.5281/zenodo.24209801[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24209801.svg)](https://doi.org/10.5281/zenodo.24209801)
+
+## Paper
+Nawaz, A. (2026). *Forensic Readiness of AI Agents: Reconstructing Prompt-Injection Attacks Without Trusting the LLM.* Zenodo. https://doi.org/10.5281/zenodo.24209801# AgentSleuth
 
 **Deterministic, LLM-free forensic reconstruction for AI agents.**
 
